@@ -5,33 +5,24 @@
 1. Syahara Ayu Siregar — 25076112
 2. Maghvira Rahmatul Dinova — 25076096
 
----
 
 # SaVi Ride – Padang Rental Bike
 
-**Aplikasi Penyewaan Sepeda Berbasis Web**
+**Aplikasi Penyewaan Sepeda di Kota Padang**
 
-SaVi Ride merupakan aplikasi penyewaan sepeda berbasis web yang dirancang untuk memudahkan masyarakat, khususnya di Kota Padang, dalam mencari informasi, memilih, dan melakukan pemesanan sepeda secara online.
+SaVi Ride adalah aplikasi penyewaan sepeda berbasis web yang dibuat untuk memudahkan pelanggan dalam mencari dan menyewa sepeda tanpa harus datang langsung hanya untuk melihat pilihan sepeda yang tersedia.
 
-Aplikasi ini dikembangkan untuk memberikan pengalaman penyewaan yang lebih praktis, terorganisir, dan efisien. Selain melayani pelanggan, SaVi Ride juga menyediakan sistem khusus bagi karyawan dan admin untuk membantu mengelola seluruh kegiatan operasional rental sepeda, mulai dari pengelolaan data sepeda hingga transaksi penyewaan dan pengembalian.
+Melalui aplikasi ini, pelanggan dapat melihat jenis sepeda, memilih waktu penyewaan, dan melakukan pemesanan secara online. Selain itu, tersedia juga halaman khusus untuk karyawan dan admin agar proses penyewaan bisa dikelola dengan lebih mudah.
 
-## Tujuan Pengembangan
+Aplikasi ini memiliki tiga jenis pengguna, yaitu:
 
-- Memudahkan pelanggan dalam melihat dan memilih sepeda yang tersedia.
-- Menyediakan layanan pemesanan sepeda secara online.
-- Membantu karyawan mengelola proses penyewaan dan pengembalian sepeda.
-- Memudahkan admin dalam mengelola data sepeda, pelanggan, karyawan, dan transaksi.
-- Meningkatkan efisiensi pengelolaan usaha rental sepeda.
-
-## Pengguna Aplikasi
-
-- **Penyewa:** Melihat pilihan sepeda, melakukan pemesanan, dan memantau riwayat penyewaan.
-- **Karyawan:** Mengelola pemesanan, pembayaran, pengambilan, dan pengembalian sepeda.
-- **Admin:** Mengelola data sepeda, pelanggan, karyawan, tarif, serta aktivitas operasional aplikasi.
+- **Penyewa:** Dapat melihat pilihan sepeda, melakukan pemesanan, dan melihat riwayat penyewaan.
+- **Karyawan:** Bertugas mengelola pemesanan, melayani pengambilan dan pengembalian sepeda, serta mencatat pembayaran.
+- **Admin:** Mengelola data sepeda, pelanggan, karyawan, harga sewa, dan berbagai aktivitas dalam aplikasi.
 
 ## Teknologi yang Digunakan
 
 - HTML
 - CSS
 - JavaScript
-- Database 
+- Database
