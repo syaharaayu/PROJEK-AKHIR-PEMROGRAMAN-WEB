@@ -1,0 +1,227 @@
+
+/* Pengaturan Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F8F4EC;
+    color: #333333;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background-color: #F8F4EC;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.logo span {
+    color: #C98298;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #444444;
+    font-size: 14px;
+}
+
+.navbar nav a:hover {
+    color: #C98298;
+}
+
+.btn-login {
+    background-color: #F6DDE2;
+    color: #704653;
+    padding: 12px 22px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    min-height: 520px;
+    display: flex;
+    align-items: center;
+    padding: 80px 8%;
+    background-color: #BFD3E3;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.subtitle {
+    color: #536B7C;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #263746;
+}
+
+.hero h1 span {
+    color: #A85F78;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #425463;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    display: inline-block;
+    background-color: #C98298;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover,
+.btn-login:hover {
+    opacity: 0.8;
+}
+
+/* Tentang Kami */
+.about,
+.bikes,
+.contact {
+    padding: 75px 8%;
+    text-align: center;
+}
+
+.about h2,
+.bikes h2,
+.contact h2 {
+    font-size: 30px;
+    margin-bottom: 18px;
+    color: #704653;
+}
+
+.about p,
+.bikes p,
+.contact p {
+    max-width: 650px;
+    margin: auto;
+    line-height: 1.8;
+    color: #666666;
+}
+
+/* Footer */
+footer {
+    background-color: #334B5C;
+    color: white;
+    text-align: center;
+    padding: 22px;
+    font-size: 13px;
+}
+
+
+/* Kartu Pilihan Sepeda */
+.bikes {
+    background-color: #F8F4EC;
+}
+
+.bike-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-top: 40px;
+}
+
+.bike-card {
+    background-color: white;
+    padding: 30px 22px;
+    border-radius: 18px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+}
+
+.bike-card:hover {
+    transform: translateY(-8px);
+}
+
+.bike-image {
+    background-color: #F6DDE2;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 14px;
+    font-size: 65px;
+    margin-bottom: 22px;
+}
+
+.bike-card h3 {
+    color: #704653;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.bike-card p {
+    font-size: 14px;
+    min-height: 55px;
+    margin-bottom: 18px;
+}
+
+.bike-card h4 {
+    color: #A85F78;
+    font-size: 17px;
+    margin-bottom: 22px;
+}
+
+.bike-card .btn-primary {
+    font-size: 13px;
+    padding: 12px 22px;
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+    .bike-container {
+        grid-template-columns: 1fr;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 34px;
+    }
+}
