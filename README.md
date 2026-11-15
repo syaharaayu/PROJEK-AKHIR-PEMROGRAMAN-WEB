@@ -1,29 +1,37 @@
+# TUGAS AKHIR PEMROGRAMAN WEB
+
+**Anggota Kelompok 9:**
+
+1. Syahara Ayu Siregar — 25076112
+2. Maghvira Rahmatul Dinova — 25076096
+
+---
 
 # SaVi Ride – Padang Rental Bike
 
-**Proyek Akhir Pemrograman Web**
+**Aplikasi Penyewaan Sepeda Berbasis Web**
 
-SaVi Ride adalah aplikasi penyewaan sepeda yang dirancang untuk memudahkan pelanggan dalam melakukan pemesanan sepeda secara online serta membantu karyawan dan admin dalam mengelola operasional penyewaan.
+SaVi Ride merupakan aplikasi penyewaan sepeda berbasis web yang dirancang untuk memudahkan masyarakat, khususnya di Kota Padang, dalam mencari informasi, memilih, dan melakukan pemesanan sepeda secara online.
 
-## Tujuan Proyek
+Aplikasi ini dikembangkan untuk memberikan pengalaman penyewaan yang lebih praktis, terorganisir, dan efisien. Selain melayani pelanggan, SaVi Ride juga menyediakan sistem khusus bagi karyawan dan admin untuk membantu mengelola seluruh kegiatan operasional rental sepeda, mulai dari pengelolaan data sepeda hingga transaksi penyewaan dan pengembalian.
 
-- Memudahkan pelanggan melihat dan memesan sepeda.
-- Membantu karyawan mengelola proses penyewaan dan pengembalian.
-- Memudahkan admin mengelola data sepeda, karyawan, pelanggan, dan transaksi.
+## Tujuan Pengembangan
 
-## Pengguna Sistem
+- Memudahkan pelanggan dalam melihat dan memilih sepeda yang tersedia.
+- Menyediakan layanan pemesanan sepeda secara online.
+- Membantu karyawan mengelola proses penyewaan dan pengembalian sepeda.
+- Memudahkan admin dalam mengelola data sepeda, pelanggan, karyawan, dan transaksi.
+- Meningkatkan efisiensi pengelolaan usaha rental sepeda.
 
-1. **Penyewa:** Melakukan pemesanan dan melihat riwayat penyewaan.
-2. **Karyawan:** Mengelola pengambilan, pembayaran, dan pengembalian sepeda.
-3. **Admin:** Mengelola seluruh data dan aktivitas sistem.
+## Pengguna Aplikasi
 
-## Teknologi
+- **Penyewa:** Melihat pilihan sepeda, melakukan pemesanan, dan memantau riwayat penyewaan.
+- **Karyawan:** Mengelola pemesanan, pembayaran, pengambilan, dan pengembalian sepeda.
+- **Admin:** Mengelola data sepeda, pelanggan, karyawan, tarif, serta aktivitas operasional aplikasi.
+
+## Teknologi yang Digunakan
 
 - HTML
 - CSS
 - JavaScript
-- Database (akan ditentukan dalam pengembangan)
-
-## Status Proyek
-
-Tahap awal pengembangan.
+- Database 
